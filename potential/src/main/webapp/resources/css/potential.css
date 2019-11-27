@@ -14,10 +14,10 @@ div#footer      { clear:both; width:100% }
 div#heaer body {position:relative; font-size:13px; color:#333; font-family:'NanumBarunGothic', NanumBarunGothic,'돋움',Dotum, Arial,sans-serif; }
 		a {color:#333; text-decoration:none;}
 		h1, h2, h3, h4, h5 {font-weight:bold;}
-.header {position:relative; margin:0 auto; width:100%;border-bottom: 1px solid #dfdfdf; background-color:#ffc;}
-		.topwrap {width:100%; background:url("/resources/images/index/top_bg.gif") repeat-x; }
-		.brdwrap {position:relative; margin:0 auto; width:960px; padding:0;}
-		.brdwrap .uty {position:relative; float:right; width:370px;top:8px; font-family:'NanumBarunGothic', NanumBarunGothic;}
+.header {position:relative; margin:0 auto; width:100%;border-bottom: 1px solid #dfdfdf; background-color:#81c147;}
+		.topwrap {width:100%; }
+		.brdwrap {position:relative; margin:0 auto; width:100%; height:40px;padding:0;border-bottom:2px solid blue;}
+		.brdwrap .uty {position:relative; float:right; width:400px;height:inherit;margin-right:300px; font-family:'NanumBarunGothic', NanumBarunGothic;}
 		.brdwrap .uty ul {float:right;}
 		.brdwrap .uty li {position:relative; float:left; margin:5px 3px; background-position: 0 -289px;padding-left:6px}
 		.brdwrap .uty li:first-child {padding-left:0px; background: none}

@@ -52,9 +52,6 @@
 							</div>
 						</div>
 
-						<div class="gnb_bg" style="display: none;"></div>
-						
-						
 					</div>
 					<!-- //gnbwrap -->
 				</div>

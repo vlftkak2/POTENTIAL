@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>isMedia</title>
+<title>POTENTIAL</title>
 <link rel="stylesheet" type="text/css" href="/resources/css/sweetalert.css">
 <link href="/resources/css/index.css" rel="stylesheet" type="text/css">
 <link href="/resources/css/login.css" rel="stylesheet" type="text/css">  
@@ -19,39 +19,67 @@
 
 <jsp:include page="/WEB-INF/views/include/header.jsp" />
 <div id="content">
-
 	
 		<div class="container_index">
 		
+		<!-- 메인 검색창 -->
 		<div id="search">
 			<form id="search_form" action="/ISMEDIA/bom/pjtlist" method="get">
-				<input type="text" id="kwd" name="kwd" value="${pjtlist.keyword }">
-				<input type="submit" value="찾기">
+				<input type="text" class="search_form_text" id="kwd" name="kwd" value="${pjtlist.keyword}" placeholder="입력 해주세요!">
+				<input type="submit" class="btn search-primary search-block" value="검색">
 			</form>
 		</div>
 		
-		<div id="seperate">
-		<img src="/resources/images/index/company.GIF" style="float:left;"/>
-				<div id="log-border">
-					<form class="login-form" name="loginform" method="post"  >
-					<ul>
-					<c:choose>
-					<c:when test='${empty sessionScope.authUser }'>
-						<li><input id="id" name="id" class="form-control" type="text" value="" placeholder="사원번호"></li>
-						<li><input id="password" name="password" type="password" class="form-control" value="" placeholder="비밀번호"></li>
-						<button class="btn btn-primary btn-block" type="button" id="btn_Login">로그인</button>
-					</c:when>	
-
-					<c:otherwise>
-						<li class="form-control">${authUser.name}님</li>
-						<button class="btn btn-primary btn-block" type="button" id="btn_logout"><a href="/ISMEDIA/logout">로그아웃</button>
-					</c:otherwise>				
-					</c:choose>
-
-					</ul>
-						
-					</form>
+		<!-- 아이콘 메뉴 -->
+		<div id="icon_menu">
+		<div class="menu ml-120" style="float:left;">
+		<a href=""><img src="/resources/images/index/index_menu/beauty.png" alt="beauty"/></a>
+		<h2><a href="">미용</a></h2>
+		</div>
+		<div class="menu ml-120" style="float:left; ">
+		<a href=""><img src="/resources/images/index/index_menu/massage.png" /></a>
+		<h2><a href="">마사지</a></h2>
+		</div>
+		
+		<div class="menu ml-120" style="float:left; ">
+		<a href=""><img src="/resources/images/index/index_menu/health.png"/></a>
+		<h2><a href="">건강</a></h2>
+		</div>
+		
+		<div class="menu ml-120" style="float:left; ">
+		<a href=""><img src="/resources/images/index/index_menu/education.png"/></a>
+		<h2><a href="">교육</a></h2>
+		</div>
+		
+		<div class="menu ml-120" style="float:left; ">
+		<a href=""><img src="/resources/images/index/index_menu/sport.png"/></a>
+		<h2><a href="">스포츠</a></h2>
+		</div>
+		
+		<div class="menu ml-120" style="float:left; ">
+		<a href=""><img src="/resources/images/index/index_menu/home.png"/></a>
+		<h2><a href="">홈서비스</a></h2>
+		</div>
+		
+		</div>
+		
+		<!-- 인기서비스 -->
+		<div id="popular_service">
+			<div class="popular_pagenation">
+				<button>&lt;</button>
+				<button>&gt;</button>
+			</div>
+			<div class="popular_content">
+				<div class="title">
+				<h4 class="popular_font">인기 서비스</h4>
+				<p>설명</p>
 				</div>
+				<div class="content"></div>
+			</div>
+		
+		
+		
+		
 		</div>
 		
 		<div id="map"></div>
@@ -64,7 +92,7 @@
 </div>
 
 <jsp:include page="/WEB-INF/views/include/footer.jsp" />
-</div>
+
 
 </body>
 <script>

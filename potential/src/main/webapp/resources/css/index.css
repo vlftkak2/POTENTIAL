@@ -1,6 +1,99 @@
 @CHARSET "UTF-8";
 @import "potential.css";
 
+
+.container_index {margin: 0 auto; width: 1500px; text-align: center;}
+
+/* 메인 폼 */ 
+#search{
+	width:900px;
+	padding-top:50px;
+	padding-bottom:70px;
+	padding-left:250px;
+}
+
+#search_form {
+	text-align:center;
+}
+
+.search_form_text{
+	width:280px;
+	height:34px;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.42857143;
+	color:#555;
+	background-color:#fff;
+	background-image:none;
+	border:1px solid #ccc;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	margin-bottom:10px;
+}
+
+/* 메인 폼 검색*/
+/*Button bootstrap*/
+.btn{
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+}
+
+.search-primary {
+    color: #fff;
+    background-color: #81c147;
+    border-color: #2e6da4;
+}
+
+.search-block {
+    /*display: block;*/
+    width:70px;
+}
+
+/* 메인 아이콘 메뉴 */
+#icon_menu{
+	width:1200px;
+	height:120px;
+    padding: 0 80px;
+}
+.menu{
+	height:inherit;
+}
+
+.ml-120{
+	margin-left:120px;
+}
+
+/* 인기서비스 */
+#popular_service{
+	width:1200px;
+	text-align:left;
+}
+
+#popular_service .popular_font{
+}
+
+
 #highlight{
 	margin-bottom:10px;
 	font-weight:bold;
@@ -19,7 +112,7 @@
 	margin:30px 0 20px 160px;
 }
 a {color:#fff; text-decoration:none;}
-		.container_index {margin: 0 auto; width: 990px; text-align: center;}
+		
 
         .markey_list_sub{margin-left:13px;}
 
@@ -36,12 +129,6 @@ a {color:#fff; text-decoration:none;}
 
 		.line_dfdfdf {background-color: #397ca8 ; height: 4px; margin-bottom: 8px;}
 		
-#seperate{
-	
-    margin: 150px 17px;
-    padding-bottom: 36px;
-}
-
 #map{
     width: 960px;
     height: 350px;
@@ -177,4 +264,5 @@ button {
     -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
     box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
+
 
