@@ -39,7 +39,6 @@ div#heaer body {position:relative; font-size:13px; color:#333; font-family:'Nanu
 		.mlbwrap {clear:both; position:relative; width:100%; margin:auto; background:#f7f7f7; border-top:1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8}
 		.mlbwrap .mlb {margin:0 auto; width:960px}
 
-
 /* footer */
 div#footer body {position:relative; font-size:13px; color:#333; font-family:'NanumBarunGothic', NanumBarunGothic,'돋움',Dotum, Arial,sans-serif;}
 		ul, ol, li {list-style:none;}
