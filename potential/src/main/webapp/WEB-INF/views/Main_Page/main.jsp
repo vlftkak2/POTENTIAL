@@ -65,22 +65,43 @@
 		
 		<!-- 인기서비스 -->
 		<div id="popular_service">
+		<!--  
 			<div class="popular_pagenation">
 				<button>&lt;</button>
 				<button>&gt;</button>
 			</div>
+	     -->
 			<div class="popular_content">
-				<div class="title">
-				<h4 class="popular_font">인기 서비스</h4>
-				<p>설명</p>
+				<div class="popular_title" style="float:left;" >
+				<h1 class="popular_font">인기 서비스</h1>
+				<p>지금 실시간 인기서비스를 <br> 바로 확인해보세요!</p>
 				</div>
-				<div class="content"></div>
+				
+				<div class="popular_info" style="float:left;">
+				
+				   <div class="popular_info_Detail ml-50" style="float:left;">
+				<a href=""><img src="/resources/images/index/index_popular/data1.GIF"/></a>
+				   </div>
+	
+				   	<div class="popular_info_Detail ml-50" style="float:left;">
+				<a href=""><img src="/resources/images/index/index_popular/data2.GIF"/></a>
+				   </div>
+				   
+				   	<div class="popular_info_Detail ml-50" style="float:left;">
+				<a href=""><img src="/resources/images/index/index_popular/data3.GIF"/></a>
+				   </div>
+				   
+				   	<div class="popular_info_Detail ml-50" style="float:left;">
+				<a href=""><img src="/resources/images/index/index_popular/data4.GIF"/></a>
+				   </div>
+				   
+				</div>
 			</div>
-		
-		
-		
-		
+			
 		</div>
+		
+		
+		
 		
 		<div id="map"></div>
 		<div id="text_index">
